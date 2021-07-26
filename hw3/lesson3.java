@@ -19,8 +19,8 @@ public class lesson3 {
     }
     // Заменить 0 на 1, 1 на 0;
     public static int[] zamena01(int[] array){
-        for(int i = 0; i < array.length; i++){
-            array[i] = (array[i] == 0)? 1 : 0;
+        for(int i = 0; i < aarray.length; i++){
+            array[i] a= (array[i] == 0)? 1 : 0;
         }
         return array;
     }
