@@ -1,0 +1,24 @@
+import Persons.Person;
+
+public class Workers {
+        public static void main(String[] args) {
+            Person[] persons = {
+                    new Person("Ilan", "Ivanov", "Engineer", "ilan.ivanov@mail.ru", "+9728923123152", 4000, 29),
+                    new Person("Ilana", "Artemova", "QA-Engineer", "ilana.Artemova@gmail.com", "+9728923123153", 6000, 48),
+                    new Person("Max", "Suho Drishev", "QC-Engineer", "SD.Max@gmail.com", "+9728923123156", 8000, 38),
+                    new Person("Ekaterina", "Noga", "Office Manager", "Noga@gmail.com", "+9728923123157", 10000, 28),
+                    new Person("Sergei", "Suho Drishev", "QC", "SD.Sergey@gmail.com", "+9728923123159", 9000,35),
+            };
+
+            for (Person person : persons) {
+                if (person.getAge() > 40) person.show();
+            }
+        }
+
+            }
+
+
+
+
+
+
